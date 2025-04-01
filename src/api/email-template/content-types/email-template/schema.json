@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_templates",
+  "info": {
+    "singularName": "email-template",
+    "pluralName": "email-templates",
+    "displayName": "Email template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Subject": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "blocks"
+    }
+  }
+}
